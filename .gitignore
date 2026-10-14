@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+# Keep .vscode settings shareable when useful
+# .vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+data/spatial_raw/*
+!data/spatial_raw/.gitkeep
+!data/spatial_raw/README.md
+
+# Generated and processed datasets
+data/processed/
+data/spatial_processed/
+
+# Model checkpoints
+# Uncomment only if you want to exclude all model checkpoints
+# models/*.pt
+# models/*.pth
+# models/*.ckpt
+
+# Temporary results and caches
+results/tmp/
+results/cache/
+*.tmp
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
